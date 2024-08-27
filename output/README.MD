@@ -19,7 +19,7 @@ import pytesseract
 from PIL import Image
 
 # Carregar a imagem
-imagem = Image.open('inputs/exemplo-imagem1.png')
+imagem = Image.open('inputs/ia-generativa.jpg')
 
 # Aplicar OCR
 texto_extraido = pytesseract.image_to_string(imagem)
